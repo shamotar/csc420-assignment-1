@@ -50,6 +50,11 @@ public class App {
         }
     }
 
+    /*
+     * @param names - The list of names to print
+     * @param title - The title of the list
+     * @description Prints a list of names with a title
+     */
     public static void printNames(ArrayList<String> names, String title) {
         System.out.println(title);
         int i = 1;
@@ -59,6 +64,11 @@ public class App {
         }
     }
 
+    /*
+     * @param names - The list of names to create a map from
+     * @return Map<String, ArrayList<String>> - A map of first names and last names
+     * @description Creates a map of first names and last names
+     */
     public static Map<String, ArrayList<String>> createNameMap(ArrayList<String> names) {
         Map<String, ArrayList<String>> namesMap = new HashMap<String, ArrayList<String>>();
         for (String name : names) {

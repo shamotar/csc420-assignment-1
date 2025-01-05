@@ -1,3 +1,11 @@
+/*
+ *  Title: Assignment 1 - Name Generator
+ *  Created by: Robert Norlander
+ *  Email: shamotar@csp.edu
+ *  Date: 2025-01-05
+ *  Class: CSC 420 - Data Structures and Algorithms
+ *  Professor: Susan Furtney
+ */
 import java.util.ArrayList;
 
 public class NameGenerator {
@@ -15,6 +23,11 @@ public class NameGenerator {
         return this.firstNames.get(firstNameIndex) + " " + this.lastNames.get(lastNameIndex);
     }
 
+    /*
+     * @param amount - The amount of names to generate
+     * @return ArrayList<String> - A list of generated names
+     * @description Generates a list of random names
+     */
     public ArrayList<String> generateNames(int amount) {
         ArrayList<String> names = new ArrayList<String>();
         for (int i = 0; i < amount; i++) {

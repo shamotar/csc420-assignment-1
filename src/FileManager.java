@@ -1,3 +1,11 @@
+/*
+ *  Title: Assignment 1 - Name Generator
+ *  Created by: Robert Norlander
+ *  Email: shamotar@csp.edu
+ *  Date: 2025-01-05
+ *  Class: CSC 420 - Data Structures and Algorithms
+ *  Professor: Susan Furtney
+ */
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -16,6 +24,10 @@ public class FileManager {
         }
     }
 
+    /*
+     * @return ArrayList<String> - The content of the file
+     * @description Reads the content of the file and returns it as a list of strings
+     */
     public ArrayList<String> read() {
         // If the scanner is null, return an empty list
         ArrayList<String> content = new ArrayList<String>();
